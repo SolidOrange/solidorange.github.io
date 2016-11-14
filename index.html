@@ -1,23 +1,21 @@
----
-layout: default
----
+<!doctype html>
+<html>
 
-<div class="home">
+<head>
+    <title>Will Concannon</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+</head>
 
-  <h1 class="page-heading">Posts</h1>
+<body>
+    <h1>
+        Hi, I'm Will Concannon.
+      </h1>
+    <p class="github">
+        My GitHub is <a href="http://github.com/SolidOrange">here.</a>
+    </p>
+    <p>
+        <img src="https://avatars3.githubusercontent.com/u/18961930?v=3&s=460" />
+    </p>
+</body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: #081A23;
+}
+
+h1 {
+  font-family: Arial;
+  color: #E4C4A1;
+}
+
+p {
+  font-family: Arial;
+  color: #E4C4A1;
+}
+
+a {
+  color: #295C75;
+
+}
+
+img{
+  height: 500px;
+  width: 500px;
+}
