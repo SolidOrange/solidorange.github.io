@@ -1,6 +1,7 @@
 #top h1 {
     color: #081A23;
     align-items: flex-start;
+    display: flex;
 }
 
 #top h1 a:hover, a:visited {
@@ -23,21 +24,22 @@
 }
 
 header {
+    position: relative;
+    display: flex;
     padding: 0px;
     width: 100%;
 }
 
 header .row {
-    display: flex;
     align-items: center;
 }
 
 header h1 {
     font-weight: 700;
+    justify-content: flex-start;
 }
 
 header nav {
-    display: flex;
     justify-content: flex-end;
 }
 
