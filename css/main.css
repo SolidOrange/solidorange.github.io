@@ -1,24 +1,30 @@
-body {
-    font-family: 'Roboto', cursive;
-    font-weight: 300;
+#top h1 {
+    color: #081A23;
+    align-items: flex-start;
 }
 
-#top h1 {
-    color: #081A23
+#top h1 a:hover, a:visited {
+    text-decoration: none;
 }
 
 #top a {
     color: #081A23
 }
 
-#top a:hover {
+#top nav a:hover {
     color: #4b96db;
     font-weight: bold;
     text-decoration: none;
 }
 
+#top nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 header {
-    padding: 0;
+    padding: 0px;
+    width: 100%;
 }
 
 header .row {
@@ -28,7 +34,6 @@ header .row {
 
 header h1 {
     font-weight: 700;
-    margin: 0;
 }
 
 header nav {
@@ -43,6 +48,7 @@ header a {
 
 .jumbotron {
     font-family: "Roboto";
+    display: flex;
     position: relative;
     background: #000 url("../img/mouse.jpg") center center;
     height: 530px;
