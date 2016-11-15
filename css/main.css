@@ -48,14 +48,12 @@ header a {
 
 .jumbotron {
     font-family: "Roboto";
+    text-shadow: 0.25px 0.25px 0.25px #000000;
     display: flex;
     position: relative;
-    background: #000 url("../img/mouse.jpg") center center;
     height: 530px;
     width: 100%;
-    background-size: cover;
     overflow: hidden;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
@@ -69,6 +67,21 @@ header a {
     font-weight: 700;
     margin: 20px 0 20px;
     color: #fff;
+}
+
+#index {
+    background: #000 url("../img/mouse.jpg") center center;
+    background-size: cover;
+}
+
+#about {
+    background: #000 url("../img/car.jpg") center center;
+    background-size: cover;
+}
+
+#projects {
+    background: #000 url("../img/code.jpg") center center;
+    background-size: cover;
 }
 
 .pull-left p {
