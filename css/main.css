@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+}
+
+#top h1 {
+    color: #081A23
+}
+
+#top a {
+    color: #081A23
+}
+
+#top a:hover {
+    color: #4b96db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    padding: 0;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    padding: 20px;
+    margin: 0;
+}
+
+.jumbotron {
+    font-family: "Roboto";
+    position: relative;
+    background: #000 url("../img/mouse.jpg") center center;
+    height: 530px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+    color: #fff;
+}
+
+.jumbotron h3 {
+    font-weight: 700;
+    margin: 20px 0 20px;
+    color: #fff;
+}
+
+.pull-left p {
+    margin-top: 20px;
+}
