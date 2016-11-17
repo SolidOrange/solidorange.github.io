@@ -1,51 +1,19 @@
-#top h1 {
-    color: #081A23;
-    align-items: flex-start;
-    display: flex;
+.container-fluid {
+    background: transparent;
 }
 
-#top h1 a:hover, a:visited {
-    text-decoration: none;
+#name, #links a {
+    font-family: "Roboto";
+    color: #fff;
 }
 
-#top a {
-    color: #081A23
-}
-
-#top nav a:hover {
-    color: #4b96db;
+#name {
     font-weight: bold;
-    text-decoration: none;
+    font-size: 24px;
 }
 
-#top nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-header {
-    position: relative;
-    display: flex;
-    padding: 0px;
-    width: 100%;
-}
-
-header .row {
-    align-items: center;
-}
-
-header h1 {
-    font-weight: 700;
-    justify-content: flex-start;
-}
-
-header nav {
-    justify-content: flex-end;
-}
-
-header a {
-    padding: 20px;
-    margin: 0;
+#links a:hover {
+    color: #808080;
 }
 
 .jumbotron {
@@ -53,9 +21,11 @@ header a {
     text-shadow: 0.25px 0.25px 0.25px #000000;
     display: flex;
     position: relative;
-    height: 530px;
+    height: 550px;
     width: 100%;
     overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .jumbotron h2 {
@@ -69,6 +39,10 @@ header a {
     font-weight: 700;
     margin: 20px 0 20px;
     color: #fff;
+}
+
+footer {
+    margin-top: 0px;
 }
 
 #index {
