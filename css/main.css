@@ -21,7 +21,7 @@
     text-shadow: 0.25px 0.25px 0.25px #000000;
     display: flex;
     position: relative;
-    height: 550px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     margin-top: 50px;
@@ -31,7 +31,7 @@
 .jumbotron h2 {
     font-size: 40px;
     font-weight: 700;
-    margin-top: 130px;
+    margin-top: 230px;
     color: #fff;
 }
 
@@ -51,15 +51,26 @@ footer {
 }
 
 #about {
+    margin-top: -30px;
     background: #000 url("../img/car.jpg") center center;
     background-size: cover;
 }
 
 #projects {
+    margin-top: -30px;
     background: #000 url("../img/code.jpg") center center;
     background-size: cover;
 }
 
+#resume {
+    margin-top: -30px;
+}
+
+#contact {
+    margin-top: -30px;
+}
+
 .pull-left p {
     margin-top: 20px;
+    margin-left: 10px;
 }
