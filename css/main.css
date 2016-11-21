@@ -75,10 +75,11 @@ footer {
 
 #aboutInfo {
     margin-top: -35px;
-    padding: 0px;
-    height: 450px;
+    padding-bottom: 75px;
+    height: 100%;
     width: 100%;
-    background-color: #F7F7F7
+    background-color: #F7F7F7;
+    position: relative;
 }
 
 #sections h1 {
