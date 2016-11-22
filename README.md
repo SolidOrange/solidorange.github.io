@@ -1,2 +1,2 @@
 # willconcannon.com
-My personal website
+My personal and first ever website.
