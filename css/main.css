@@ -83,7 +83,7 @@ footer {
 }
 
 #sections h1 {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -93,9 +93,9 @@ footer {
     padding: 14px;
 }
 
-#projects {
+#resume {
     margin-top: -30px;
-    background: url("../img/code.jpg") no-repeat center center fixed;
+    background: url("../img/resume.jpg") no-repeat center center fixed;
     display: table;
     position: relative;
     height: 200px;
@@ -106,9 +106,48 @@ footer {
     background-size: cover;
 }
 
-#resume {
+#resumeInfo {
+    margin-top: -35px;
+    padding-bottom: 75px;
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+#resumeInfo #firstRow h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#resumeInfo #secondRow h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#resumeInfo ul {
+    font-size: 16px;
+}
+
+#resumeInfo strong {
+    font-size: 20px;
+}
+
+#resumeInfo #courses {
+    font-size: 16px;
+}
+
+#resumeInfo #skills {
+    font-size: 16px;
+}
+
+#resumeInfo #experience ul {
+    padding-bottom: 5px;
+}
+
+#projects {
     margin-top: -30px;
-    background: url("../img/plugged_in.jpg") no-repeat center center fixed;
+    background: url("../img/code.jpg") no-repeat center center fixed;
     display: table;
     position: relative;
     height: 200px;
@@ -130,6 +169,10 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.row {
+    padding-bottom: 40px;
 }
 
 .pull-left p {
