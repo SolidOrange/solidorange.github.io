@@ -41,8 +41,9 @@
     color: #fff;
 }
 
-footer {
+#bottom {
     margin-top: 0px;
+    padding-bottom: 0px;
 }
 
 #index {
@@ -173,6 +174,10 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#contactInfo {
+    padding-bottom: 0px;
 }
 
 #contactInfo p {
